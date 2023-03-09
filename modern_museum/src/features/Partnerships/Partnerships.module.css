@@ -1,0 +1,20 @@
+.partnerships {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerships h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
