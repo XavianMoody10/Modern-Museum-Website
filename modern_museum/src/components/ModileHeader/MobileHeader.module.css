@@ -64,10 +64,11 @@
   .header {
     background-color: rgb(250, 200, 106);
     width: 100%;
+    position: sticky;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: fixed;
+    z-index: 2;
   }
 
   .mobile_exit_cta {
@@ -86,6 +87,6 @@
     top: 0;
     margin: 10px;
     font-size: 2.5rem;
-    z-index: -1;
+    z-index: 1;
   }
 }

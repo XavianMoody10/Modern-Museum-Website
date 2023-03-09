@@ -1,4 +1,6 @@
 .header {
+  position: sticky;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -14,6 +16,11 @@
   font-weight: 800;
   font-size: 19.4213px;
   color: #5c5c5c;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
 }
 
 .ctas {
@@ -25,6 +32,7 @@
   font-weight: 800;
   font-size: 19px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .ctas button:nth-of-type(1) {
