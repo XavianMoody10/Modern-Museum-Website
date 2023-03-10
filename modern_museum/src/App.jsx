@@ -1,4 +1,5 @@
 import "./App.css";
+import { FAQS } from "./features/FAQS/FAQS";
 import { Header } from "./features/Header/Header";
 import { Hero } from "./features/Hero/Hero";
 import { Partnerships } from "./features/Partnerships/Partnerships";
@@ -13,6 +14,7 @@ function App() {
       <Partnerships></Partnerships>
       <TeamLayouts></TeamLayouts>
       <Testimonial></Testimonial>
+      <FAQS></FAQS>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.question {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+  width: 400px;
+  padding: 20px;
+  user-select: none;
+}
+
+.question p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.question p:nth-of-type(1) {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.question p:nth-of-type(2) {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 419px) {
+  .question {
+    width: 100%;
+  }
+}
+
+@media (max-width: 324px) {
+  .icon {
+    display: none;
+  }
+
+  .question p {
+    text-align: center;
+  }
+}
