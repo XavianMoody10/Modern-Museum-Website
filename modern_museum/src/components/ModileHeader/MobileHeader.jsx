@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 export const MobileHeader = () => {
-  const [open, isOpen] = useState(true);
+  const [open, isOpen] = useState(false);
 
   return (
     <React.Fragment>
       <motion.header
         className={styles.header}
-        initial={{ y: 0 }}
+        initial={{ y: "-100%" }}
         animate={{ y: !open ? "-100%" : 0 }}
         transition={{ stiffness: 0 }}
       >

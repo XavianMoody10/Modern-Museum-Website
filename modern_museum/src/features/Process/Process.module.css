@@ -33,7 +33,7 @@
 .step {
   background-color: #fafafa;
   border-radius: 28px;
-  width: 290px;
+  width: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -68,8 +68,8 @@
   top: 60px;
 }
 .arrow:nth-of-type(2) {
-  right: 280px;
-  bottom: 100px;
+  right: 250px;
+  bottom: 130px;
 }
 
 @media (max-width: 1057px) {

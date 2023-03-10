@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-around;
   padding: 20px;
+  top: 0;
+  background-color: white;
+  z-index: 2;
 }
 
 .navbar {
