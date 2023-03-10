@@ -1,0 +1,126 @@
+.teamlayouts {
+  margin: 100px auto 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1100px;
+}
+
+.teamlayouts h1 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+
+.teamlayouts h1 span:nth-of-type(1) {
+  font-size: 17px;
+  font-weight: lighter;
+}
+.teamlayouts h1 span:nth-of-type(2) {
+  font-size: 40px;
+}
+
+.layouts {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.layout {
+  border-radius: 10px;
+  height: 370px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f5fb;
+}
+
+.layoutInfo {
+  border-radius: 10px;
+  height: 100px;
+  width: 90%;
+  position: relative;
+  top: 180px;
+  background-color: white;
+  box-shadow: 0px 61.4056px 87.7222px -35.0889px rgba(57, 59, 106, 0.08);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.layoutInfo p {
+  display: flex;
+  flex-direction: column;
+}
+
+.layoutInfo p span:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.layoutInfo p span:nth-of-type(2) {
+  font-size: 13.3514px;
+}
+
+.icon {
+  font-size: 1.3rem;
+  border-radius: 100%;
+  padding: 13px;
+  height: 48px;
+  width: 48px;
+  background-color: #f7f9fd;
+}
+
+@media (max-width: 1155px) {
+  .teamlayouts {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .teamlayouts h1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+  }
+
+  .layouts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .layout {
+    width: 400px;
+  }
+}
+
+@media (max-width: 448px) {
+  .layout {
+    width: 80%;
+  }
+}
+
+@media (max-width: 312px) {
+  .layouts {
+    gap: 60px;
+  }
+
+  .layoutInfo p span:nth-of-type(2) {
+    display: none;
+  }
+
+  .layoutInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: auto;
+  }
+}

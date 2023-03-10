@@ -11,10 +11,28 @@
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .logos {
   display: flex;
   align-items: center;
   gap: 130px;
+}
+
+@media (max-width: 1008px) {
+  .partnerships {
+    padding: 10px;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 328px) {
+  .logos {
+    grid-template-columns: 1fr;
+  }
 }
